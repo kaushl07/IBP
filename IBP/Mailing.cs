@@ -32,6 +32,7 @@ namespace IBP
                 Credentials = new NetworkCredential(fromAddress.Address, fromPassword),
                 Timeout = 20000
             };
+
             using (var message = new MailMessage(fromAddress, toAddress)
             {
                 Subject = subject,
