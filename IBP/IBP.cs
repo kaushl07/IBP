@@ -26,7 +26,7 @@ namespace IBP
         [SetUp]
         public void startBrowser()
         {
-            driver = new ChromeDriver("C:/IBP/packages/Selenium.Chrome.WebDriver.79.0.0/driver");
+            driver = new ChromeDriver("D:/Project/IBP/packages/Selenium.Chrome.WebDriver.83.0.0/driver");
             _applicationJobHelper = new ApplicationJobHelper(driver);
         }
 
